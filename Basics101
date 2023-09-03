@@ -1,0 +1,110 @@
+package JavaScaler;
+
+import java.util.Scanner;
+
+
+public class Basics101 {
+	public static void main(String args[]) {
+		System.out.print("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hi");
+		
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hi");
+		
+		//Print different types of data
+		
+		System.out.println(156);
+		System.out.println("156");
+		
+		System.out.println(156 + 7);
+		System.out.println("156" + "7");
+		
+		System.out.println("156" + 7);
+		System.out.println(3 +"158");
+		
+		int marks = 280;
+		System.out.println("marks " + marks) ;
+		System.out.println("marks " + marks + 1) ;
+		System.out.println("marks " + (marks + 1)) ;
+		System.out.println(1 + marks + "marks") ;
+
+		
+		// long Data type
+		
+		long distance = 2736540278453464364l;
+		int dist = (int)distance;
+		
+		System.out.print( distance +" \n "+ dist);
+		
+		
+		// Floats And Doubles
+		
+		
+		// by default java stores everything in double
+		// so explicit casting is used
+		double paise = 2342.432;
+		float sand = (float)237.32141;
+		System.out.println(paise +"\n"+sand);
+		
+		// Char
+		
+		char letter = 'B';
+		System.out.println(letter);
+		System.out.println((int)letter); // ASCII Value
+		
+		//ADD Char
+		
+		
+		System.out.println('A' + 'B'); // Addition of acsii value and o/p is 131
+		
+		
+		//Adding Strings
+		System.out.println("A" + "B");	 // AB	
+		
+		
+		
+		
+		//Boolean
+		
+		
+		boolean x;
+		x = true;
+		boolean y = false;
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+		
+		
+		// Inputs
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int xy = sc.nextInt();
+		System.out.println(xy);
+		
+		int x1 = sc.nextInt();
+		int x2 = sc.nextInt();
+		
+		System.out.println(x1);
+		System.out.println(x2);
+		System.out.println(x1 + x2);
+
+		
+		long num = sc.nextLong();
+		System.out.println(num);
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+
+}
