@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class Main {
+	public static void main(String args[]) {
+		// Your code goes here
+		Scanner sc = new Scanner(System.in);
+
+		int bill = sc.nextInt();
+
+		// Last Digit is 4 and number bill is greater than 500
+		if(bill%10==4 && bill>500){
+			System.out.println("I will pay the bill");
+		}
+		else{
+			System.out.println("You will pay!");
+		}
+
+		// Pizza or Garlic Bread 
+		String order = sc.next();
+		if(!(order.equals("Pizza") || order.equals("GarlicBread"))){
+			System.out.println("Happy :) ");
+		}
+		else{
+			System.out.println("Sad");
+		}
+
+		// Not  ! 
+		boolean isRainy = false; 
+
+		if(isRainy){
+			System.out.println("its raining");
+		}
+		else{
+			System.out.println("lets go out");
+		}
+
+		//good 
+		if(!(isRainy)){
+			System.out.println("Its not raining");
+		}
+
+
+	}
+}
